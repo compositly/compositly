@@ -48,7 +48,7 @@
     "ci:css": "yarn css && yarn lint && yarn format && yarn test && yarn build && yarn pack",
     "ci:compile": "yarn ci && yarn compile:to:landing",
     "stories": "storybook dev -p 6006",
-    "stories:build": "storybook build -o dist-stories",
+    "stories:build": "storybook build -o dist-stories && cp -R dist-stories/* ../docs/dist",
     "docs": "storybook dev --docs",
     "docs:build": "storybook build --docs -o dist-docs"
   },
