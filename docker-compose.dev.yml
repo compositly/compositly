@@ -1,0 +1,9 @@
+# docker-compose --project-name ntv -d
+version: "3"
+services:
+  webapp:
+    container_name: webapp
+    restart: always
+    build: ./
+    ports:
+      - "9538:80"

@@ -1,0 +1,114 @@
+image: node:18
+cache:
+  paths:
+    - node_modules/
+    - dist/
+    - .coverage/
+  
+stages: 
+  - prepare
+  - review
+  - build
+  - test
+  - docs
+
+before_script:
+  # Update npm
+  # - npm install -g npm@latest
+  # Configure PATH
+  - export PATH=$(which npm):$PATH
+  - export PATH=$(which node):$PATH
+  - npm install -D
+
+# STAGES: code
+
+package-install:
+  stage: prepare
+  script:
+    - rm -rf node_modules/ dist/ .coverage/ package-lock.json
+    - npm install
+    - npm install -D
+  artifacts:
+    paths:
+      - node_modules/
+
+package-lint:
+  stage: review
+  dependencies:
+    - package-install
+  script:
+    - npm run lint
+
+package-format:
+  stage: review
+  dependencies:
+    - package-install
+    - package-lint
+  script:
+    - npm run format
+
+# STAGES: build
+
+package-build:
+  stage: build
+  dependencies:
+    - package-lint
+    - package-format
+  script:
+    - npm i
+    - npm run ci
+  artifacts:
+    paths:
+      - dist/
+
+# STAGES: test
+
+package-coverage:
+  stage: test
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  dependencies:
+    - package-build
+  script:
+    - npm i
+    - npm run test
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: .coverage/coberatura-coverage.xml
+      junit: junit.xml
+
+package-docs:
+  stage: docs
+  dependencies:
+    - package-coverage
+  script:
+    - npm i
+    - npm run stories:build
+    - npm run docs:build
+  artifacts:
+    paths:
+      - dist-stories/
+      - dist-docs/
+
+#package-sonar:
+#  image: safloresg/gitlab-sonar-scanner:1.0.1
+#  stage: qa
+#  dependencies:
+#    - package-build
+#  variables:
+#    SONAR_URL: <Your Sonar URL>
+#    SONAR_ANALYSIS_MODE: publish
+#  script:
+#    - /bin/bash scripts/verify-sonar.sh
+#
+#package-sonar-clean:
+#  image: safloresg/gitlab-sonar-scanner:1.0.1
+#  stage: qa
+#  dependencies:
+#    - package-sonar
+#  variables:
+#    SONAR_URL: <Your Sonar URL>
+#  script:
+#    - /bin/bash scripts/verify-sonar.sh remove_branch

@@ -1,0 +1,2068 @@
+{
+    "countries": [
+      {
+        "name": "Afghanistan",
+        "name_es": "Afganistán",
+        "iso2": "af",
+        "timezone": 4.5,
+        "demonyms": {
+          "demonym_en": "Afghan",
+          "demonym_es": "afgano/a"
+        }
+      },
+      {
+        "name": "Albania",
+        "name_es": "Albania",
+        "iso2": "al",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Albanian",
+          "demonym_es": "albanés/albanesa"
+        }
+      },
+      {
+        "name": "Algeria",
+        "name_es": "Argelia",
+        "iso2": "dz",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Algerian",
+          "demonym_es": "argelino/a"
+        }
+      },
+      {
+        "name": "Andorra",
+        "name_es": "Andorra",
+        "iso2": "ad",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Andorran",
+          "demonym_es": "andorrano/a"
+        }
+      },
+      {
+        "name": "Angola",
+        "name_es": "Angola",
+        "iso2": "ao",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Angolan",
+          "demonym_es": "angoleño/a"
+        }
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "name_es": "Antigua y Barbuda",
+        "iso2": "ag",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Antiguan",
+          "demonym_es": "antiguano/a"
+        }
+      },
+      {
+        "name": "Argentina",
+        "name_es": "Argentina",
+        "iso2": "ar",
+        "timezone": -3,
+        "demonyms": {
+          "demonym_en": "Argentinian",
+          "demonym_es": "argentino/a"
+        }
+      },
+      {
+        "name": "Armenia",
+        "name_es": "Armenia",
+        "iso2": "am",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "Armenian",
+          "demonym_es": "armenio/a"
+        }
+      },
+      {
+        "name": "Aruba",
+        "name_es": "Aruba",
+        "iso2": "aw",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Aruban",
+          "demonym_es": "arubeño/a"
+        }
+      },
+      {
+        "name": "Australia",
+        "name_es": "Australia",
+        "iso2": "au",
+        "timezone": 11,
+        "demonyms": {
+          "demonym_en": "Australian",
+          "demonym_es": "australiano/a"
+        }
+      },
+      {
+        "name": "Austria",
+        "name_es": "Austria",
+        "iso2": "at",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Austrian",
+          "demonym_es": "austriaco/a"
+        }
+      },
+      {
+        "name": "Azerbaijan",
+        "name_es": "Azerbaiyán",
+        "iso2": "az",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "Azerbaijani",
+          "demonym_es": "azerbaiyano/a"
+        }
+      },
+      {
+        "name": "Bahamas",
+        "name_es": "Bahamas",
+        "iso2": "bs",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Bahamian",
+          "demonym_es": "bahameño/a"
+        }
+      },
+      {
+        "name": "Bahrain",
+        "name_es": "Bahréin",
+        "iso2": "bh",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Bahraini",
+          "demonym_es": "bahreiní"
+        }
+      },
+      {
+        "name": "Bangladesh",
+        "name_es": "Bangladesh",
+        "iso2": "bd",
+        "timezone": 6,
+        "demonyms": {
+          "demonym_en": "Bangladeshi",
+          "demonym_es": "bangladesí"
+        }
+      },
+      {
+        "name": "Barbados",
+        "name_es": "Barbados",
+        "iso2": "bb",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Barbadian",
+          "demonym_es": "barbadense"
+        }
+      },
+      {
+        "name": "Belarus",
+        "name_es": "Bielorrusia",
+        "iso2": "by",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Belarusian",
+          "demonym_es": "bielorruso/a"
+        }
+      },
+      {
+        "name": "Belgium",
+        "name_es": "Bélgica",
+        "iso2": "be",
+        "timezone": 1,
+        "demonyms": { "demonym_en": "Belgian", "demonym_es": "belga" }
+      },
+      {
+        "name": "Belize",
+        "name_es": "Belice",
+        "iso2": "bz",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Belizean",
+          "demonym_es": "beliceño/a"
+        }
+      },
+      {
+        "name": "Benin",
+        "name_es": "Benín",
+        "iso2": "bj",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Beninese",
+          "demonym_es": "beninés/beninesa"
+        }
+      },
+      {
+        "name": "Bhutan",
+        "name_es": "Bután",
+        "iso2": "bt",
+        "timezone": 6,
+        "demonyms": {
+          "demonym_en": "Bhutanese",
+          "demonym_es": "butanés/butanesa"
+        }
+      },
+      {
+        "name": "Bolivia",
+        "name_es": "Bolivia",
+        "iso2": "bo",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Bolivian",
+          "demonym_es": "boliviano/a"
+        }
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "name_es": "Bosnia y Herzegovina",
+        "iso2": "ba",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Bosnian",
+          "demonym_es": "bosnio/a"
+        }
+      },
+      {
+        "name": "Botswana",
+        "name_es": "Botsuana",
+        "iso2": "bw",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Botswanan",
+          "demonym_es": "botsuano/a"
+        }
+      },
+      {
+        "name": "Brazil",
+        "name_es": "Brasil",
+        "iso2": "br",
+        "timezone": -3,
+        "demonyms": {
+          "demonym_en": "Brazilian",
+          "demonym_es": "brasileño/a"
+        }
+      },
+      {
+        "name": "British Indian Ocean Territory",
+        "name_es": "Territorio Británico del Océano Índico",
+        "iso2": "io",
+        "timezone": 6,
+        "demonyms": {
+          "demonym_en": "British",
+          "demonym_es": "británico/a"
+        }
+      },
+      {
+        "name": "Brunei",
+        "name_es": "Brunéi",
+        "iso2": "bn",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Bruneian",
+          "demonym_es": "bruneano/a"
+        }
+      },
+      {
+        "name": "Bulgaria",
+        "name_es": "Bulgaria",
+        "iso2": "bg",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Bulgarian",
+          "demonym_es": "búlgaro/a"
+        }
+      },
+      {
+        "name": "Burkina Faso",
+        "name_es": "Burkina Faso",
+        "iso2": "bf",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Burkinabe",
+          "demonym_es": "burkinés/burkinesa"
+        }
+      },
+      {
+        "name": "Burundi",
+        "name_es": "Burundi",
+        "iso2": "bi",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Burundian",
+          "demonym_es": "burundés/burundesa"
+        }
+      },
+      {
+        "name": "Cambodia",
+        "name_es": "Camboya",
+        "iso2": "kh",
+        "timezone": 7,
+        "demonyms": {
+          "demonym_en": "Cambodian",
+          "demonym_es": "camboyano/a"
+        }
+      },
+      {
+        "name": "Cameroon",
+        "name_es": "Camerún",
+        "iso2": "cm",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Cameroonian",
+          "demonym_es": "camerunés/camerunesa"
+        }
+      },
+      {
+        "name": "Canada",
+        "name_es": "Canadá",
+        "iso2": "ca",
+        "timezone": -8,
+        "demonyms": {
+          "demonym_en": "Canadian",
+          "demonym_es": "canadiense"
+        }
+      },
+      {
+        "name": "Cape Verde",
+        "name_es": "Cabo Verde",
+        "iso2": "cv",
+        "timezone": -1,
+        "demonyms": {
+          "demonym_en": "Cape Verdean",
+          "demonym_es": "caboverdiano/a"
+        }
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "name_es": "Países Bajos del Caribe",
+        "iso2": "bq",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Dutch",
+          "demonym_es": "neerlandés/neerlandesa"
+        }
+      },
+      {
+        "name": "Central African Republic",
+        "name_es": "República Centroafricana",
+        "iso2": "cf",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Central African",
+          "demonym_es": "centroafricano/a"
+        }
+      },
+      {
+        "name": "Chad",
+        "name_es": "Chad",
+        "iso2": "td",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Chadian",
+          "demonym_es": "chadiano/a"
+        }
+      },
+      {
+        "name": "Chile",
+        "name_es": "Chile",
+        "iso2": "cl",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Chilean",
+          "demonym_es": "chileno/a"
+        }
+      },
+      {
+        "name": "China",
+        "name_es": "China",
+        "iso2": "cn",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Chinese",
+          "demonym_es": "chino/a"
+        }
+      },
+      {
+        "name": "Colombia",
+        "name_es": "Colombia",
+        "iso2": "co",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Colombian",
+          "demonym_es": "colombiano/a"
+        }
+      },
+      {
+        "name": "Comoros",
+        "name_es": "Comoras",
+        "iso2": "km",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Comorian",
+          "demonym_es": "comorense"
+        }
+      },
+      {
+        "name": "Congo",
+        "name_es": "Congo",
+        "iso2": "cd",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Congolese",
+          "demonym_es": "congoleño/a"
+        }
+      },
+      {
+        "name": "Congo",
+        "name_es": "Congo",
+        "iso2": "cg",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Congolese",
+          "demonym_es": "congoleño/a"
+        }
+      },
+      {
+        "name": "Costa Rica",
+        "name_es": "Costa Rica",
+        "iso2": "cr",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Costa Rican",
+          "demonym_es": "costarricense"
+        }
+      },
+      {
+        "name": "Côte d'Ivoire",
+        "name_es": "Costa de Marfil",
+        "iso2": "ci",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Ivorian",
+          "demonym_es": "marfileño/a"
+        }
+      },
+      {
+        "name": "Croatia",
+        "name_es": "Croacia",
+        "iso2": "hr",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Croatian",
+          "demonym_es": "croata"
+        }
+      },
+      {
+        "name": "Cuba",
+        "name_es": "Cuba",
+        "iso2": "cu",
+        "timezone": -5,
+        "demonyms": { "demonym_en": "Cuban", "demonym_es": "cubano/a" }
+      },
+      {
+        "name": "Curaçao",
+        "name_es": "Curazao",
+        "iso2": "cw",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Dutch",
+          "demonym_es": "neerlandés/neerlandesa"
+        }
+      },
+      {
+        "name": "Cyprus",
+        "name_es": "Chipre",
+        "iso2": "cy",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Cypriot",
+          "demonym_es": "chipriota"
+        }
+      },
+      {
+        "name": "Czech Republic",
+        "name_es": "República Checa",
+        "iso2": "cz",
+        "timezone": 1,
+        "demonyms": { "demonym_en": "Czech", "demonym_es": "checo/a" }
+      },
+      {
+        "name": "Denmark",
+        "name_es": "Dinamarca",
+        "iso2": "dk",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Danish",
+          "demonym_es": "danés/danesa"
+        }
+      },
+      {
+        "name": "Djibouti",
+        "name_es": "Yibuti",
+        "iso2": "dj",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Djiboutian",
+          "demonym_es": "yibutiano/a"
+        }
+      },
+      {
+        "name": "Dominica",
+        "name_es": "Dominica",
+        "iso2": "dm",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Dominican",
+          "demonym_es": "dominicano/a"
+        }
+      },
+      {
+        "name": "Dominican Republic",
+        "name_es": "República Dominicana",
+        "iso2": "do",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Dominican",
+          "demonym_es": "dominicano/a"
+        }
+      },
+      {
+        "name": "Ecuador",
+        "name_es": "Ecuador",
+        "iso2": "ec",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Ecuadorian",
+          "demonym_es": "ecuatoriano/a"
+        }
+      },
+      {
+        "name": "Egypt",
+        "name_es": "Egipto",
+        "iso2": "eg",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Egyptian",
+          "demonym_es": "egipcio/a"
+        }
+      },
+      {
+        "name": "El Salvador",
+        "name_es": "El Salvador",
+        "iso2": "sv",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Salvadoran",
+          "demonym_es": "salvadoreño/a"
+        }
+      },
+      {
+        "name": "Equatorial Guinea",
+        "name_es": "Guinea Ecuatorial",
+        "iso2": "gq",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Equatorial Guinean",
+          "demonym_es": "ecuatoguineano/a"
+        }
+      },
+      {
+        "name": "Eritrea",
+        "name_es": "Eritrea",
+        "iso2": "er",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Eritrean",
+          "demonym_es": "eritreo/a"
+        }
+      },
+      {
+        "name": "Estonia",
+        "name_es": "Estonia",
+        "iso2": "ee",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Estonian",
+          "demonym_es": "estonio/a"
+        }
+      },
+      {
+        "name": "Ethiopia",
+        "name_es": "Etiopía",
+        "iso2": "et",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Ethiopian",
+          "demonym_es": "etíope"
+        }
+      },
+      {
+        "name": "Fiji",
+        "name_es": "Fiyi",
+        "iso2": "fj",
+        "timezone": 12,
+        "demonyms": {
+          "demonym_en": "Fijian",
+          "demonym_es": "fiyiano/a"
+        }
+      },
+      {
+        "name": "Finland",
+        "name_es": "Finlandia",
+        "iso2": "fi",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Finnish",
+          "demonym_es": "finlandés/finlandesa"
+        }
+      },
+      {
+        "name": "France",
+        "name_es": "Francia",
+        "iso2": "fr",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "French",
+          "demonym_es": "francés/francesa"
+        }
+      },
+      {
+        "name": "French Guiana",
+        "name_es": "Guayana Francesa",
+        "iso2": "gf",
+        "timezone": -3,
+        "demonyms": {
+          "demonym_en": "French Guianese",
+          "demonym_es": "guyanés/guyanesa"
+        }
+      },
+      {
+        "name": "French Polynesia",
+        "name_es": "Polinesia Francesa",
+        "iso2": "pf",
+        "timezone": -10,
+        "demonyms": {
+          "demonym_en": "French",
+          "demonym_es": "francés/francesa"
+        }
+      },
+      {
+        "name": "Gabon",
+        "name_es": "Gabón",
+        "iso2": "ga",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Gabonese",
+          "demonym_es": "gabonés/gabonesa"
+        }
+      },
+      {
+        "name": "Gambia",
+        "name_es": "Gambia",
+        "iso2": "gm",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Gambian",
+          "demonym_es": "gambiano/a"
+        }
+      },
+      {
+        "name": "Georgia",
+        "name_es": "Georgia",
+        "iso2": "ge",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "Georgian",
+          "demonym_es": "georgiano/a"
+        }
+      },
+      {
+        "name": "Germany",
+        "name_es": "Alemania",
+        "iso2": "de",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "German",
+          "demonym_es": "alemán/alemana"
+        }
+      },
+      {
+        "name": "Ghana",
+        "name_es": "Ghana",
+        "iso2": "gh",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Ghanaian",
+          "demonym_es": "ghanés/ghanesa"
+        }
+      },
+      {
+        "name": "Greece",
+        "name_es": "Grecia",
+        "iso2": "gr",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Greek",
+          "demonym_es": "griego/a"
+        }
+      },
+      {
+        "name": "Grenada",
+        "name_es": "Granada",
+        "iso2": "gd",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Grenadian",
+          "demonym_es": "granadino/a"
+        }
+      },
+      {
+        "name": "Guadeloupe",
+        "name_es": "Guadalupe",
+        "iso2": "gp",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "French",
+          "demonym_es": "francés/francesa"
+        }
+      },
+      {
+        "name": "Guam",
+        "name_es": "Guam",
+        "iso2": "gu",
+        "timezone": 10,
+        "demonyms": {
+          "demonym_en": "Guamanian",
+          "demonym_es": "guameño/a"
+        }
+      },
+      {
+        "name": "Guatemala",
+        "name_es": "Guatemala",
+        "iso2": "gt",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Guatemalan",
+          "demonym_es": "guatemalteco/a"
+        }
+      },
+      {
+        "name": "Guinea",
+        "name_es": "Guinea",
+        "iso2": "gn",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Guinean",
+          "demonym_es": "guineano/a"
+        }
+      },
+      {
+        "name": "Guinea-Bissau",
+        "name_es": "Guinea-Bissau",
+        "iso2": "gw",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Bissau-Guinean",
+          "demonym_es": "guineano/a"
+        }
+      },
+      {
+        "name": "Guyana",
+        "name_es": "Guyana",
+        "iso2": "gy",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Guyanese",
+          "demonym_es": "guyanés/guyanesa"
+        }
+      },
+      {
+        "name": "Haiti",
+        "name_es": "Haití",
+        "iso2": "ht",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Haitian",
+          "demonym_es": "haitiano/a"
+        }
+      },
+      {
+        "name": "Honduras",
+        "name_es": "Honduras",
+        "iso2": "hn",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Honduran",
+          "demonym_es": "hondureño/a"
+        }
+      },
+      {
+        "name": "Hong Kong",
+        "name_es": "Hong Kong",
+        "iso2": "hk",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Hong Kong",
+          "demonym_es": "hongkonés/hongkonesa"
+        }
+      },
+      {
+        "name": "Hungary",
+        "name_es": "Hungría",
+        "iso2": "hu",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Hungarian",
+          "demonym_es": "húngaro/a"
+        }
+      },
+      {
+        "name": "Iceland",
+        "name_es": "Islandia",
+        "iso2": "is",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Icelander",
+          "demonym_es": "islandés/islandesa"
+        }
+      },
+      {
+        "name": "India",
+        "name_es": "India",
+        "iso2": "in",
+        "timezone": 5.5,
+        "demonyms": {
+          "demonym_en": "Indian",
+          "demonym_es": "indio/a"
+        }
+      },
+      {
+        "name": "Indonesia",
+        "name_es": "Indonesia",
+        "iso2": "id",
+        "timezone": 7,
+        "demonyms": {
+          "demonym_en": "Indonesian",
+          "demonym_es": "indonesio/a"
+        }
+      },
+      {
+        "name": "Iran",
+        "name_es": "Irán",
+        "iso2": "ir",
+        "timezone": 3.5,
+        "demonyms": {
+          "demonym_en": "Iranian",
+          "demonym_es": "iraní"
+        }
+      },
+      {
+        "name": "Iraq",
+        "name_es": "Iraq",
+        "iso2": "iq",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Iraqi",
+          "demonym_es": "iraquí"
+        }
+      },
+      {
+        "name": "Ireland",
+        "name_es": "Irlanda",
+        "iso2": "ie",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Irish",
+          "demonym_es": "irlandés/irlandesa"
+        }
+      },
+      {
+        "name": "Israel",
+        "name_es": "Israel",
+        "iso2": "il",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Israeli",
+          "demonym_es": "israelí"
+        }
+      },
+      {
+        "name": "Italy",
+        "name_es": "Italia",
+        "iso2": "it",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Italian",
+          "demonym_es": "italiano/a"
+        }
+      },
+      {
+        "name": "Jamaica",
+        "name_es": "Jamaica",
+        "iso2": "jm",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Jamaican",
+          "demonym_es": "jamaicano/a"
+        }
+      },
+      {
+        "name": "Japan",
+        "name_es": "Japón",
+        "iso2": "jp",
+        "timezone": 9,
+        "demonyms": {
+          "demonym_en": "Japanese",
+          "demonym_es": "japonés/japonesa"
+        }
+      },
+      {
+        "name": "Jersey",
+        "name_es": "Jersey",
+        "iso2": "je",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Channel Islander",
+          "demonym_es": "islandés/islandesa"
+        }
+      },
+      {
+        "name": "Jordan",
+        "name_es": "Jordania",
+        "iso2": "jo",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Jordanian",
+          "demonym_es": "jordano/a"
+        }
+      },
+      {
+        "name": "Kazakhstan",
+        "name_es": "Kazajistán",
+        "iso2": "kz",
+        "timezone": 6,
+        "demonyms": {
+          "demonym_en": "Kazakhstani",
+          "demonym_es": "kazajo/a"
+        }
+      },
+      {
+        "name": "Kenya",
+        "name_es": "Kenia",
+        "iso2": "ke",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Kenyan",
+          "demonym_es": "keniano/a"
+        }
+      },
+      {
+        "name": "Kiribati",
+        "name_es": "Kiribati",
+        "iso2": "ki",
+        "timezone": 12,
+        "demonyms": {
+          "demonym_en": "I-Kiribati",
+          "demonym_es": "kiribatiano/a"
+        }
+      },
+      {
+        "name": "Kuwait",
+        "name_es": "Kuwait",
+        "iso2": "kw",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Kuwaiti",
+          "demonym_es": "kuwaití"
+        }
+      },
+      {
+        "name": "Kyrgyzstan",
+        "name_es": "Kirguistán",
+        "iso2": "kg",
+        "timezone": 6,
+        "demonyms": {
+          "demonym_en": "Kyrgyzstani",
+          "demonym_es": "kirguís"
+        }
+      },
+      {
+        "name": "Laos",
+        "name_es": "Laos",
+        "iso2": "la",
+        "timezone": 7,
+        "demonyms": {
+          "demonym_en": "Laotian",
+          "demonym_es": "laosiano/a"
+        }
+      },
+      {
+        "name": "Latvia",
+        "name_es": "Letonia",
+        "iso2": "lv",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Latvian",
+          "demonym_es": "letón/letona"
+        }
+      },
+      {
+        "name": "Lebanon",
+        "name_es": "Líbano",
+        "iso2": "lb",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Lebanese",
+          "demonym_es": "libanés/libanesa"
+        }
+      },
+      {
+        "name": "Lesotho",
+        "name_es": "Lesotho",
+        "iso2": "ls",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Basotho",
+          "demonym_es": "lesotense"
+        }
+      },
+      {
+        "name": "Liberia",
+        "name_es": "Liberia",
+        "iso2": "lr",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Liberian",
+          "demonym_es": "liberiano/a"
+        }
+      },
+      {
+        "name": "Libya",
+        "name_es": "Libia",
+        "iso2": "ly",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Libyan",
+          "demonym_es": "libio/a"
+        }
+      },
+      {
+        "name": "Liechtenstein",
+        "name_es": "Liechtenstein",
+        "iso2": "li",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Liechtensteiner",
+          "demonym_es": "liechtensteiniano/a"
+        }
+      },
+      {
+        "name": "Lithuania",
+        "name_es": "Lituania",
+        "iso2": "lt",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Lithuanian",
+          "demonym_es": "lituano/a"
+        }
+      },
+      {
+        "name": "Luxembourg",
+        "name_es": "Luxemburgo",
+        "iso2": "lu",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Luxembourger",
+          "demonym_es": "luxemburgués/luxemburguesa"
+        }
+      },
+      {
+        "name": "Macau",
+        "name_es": "Macau",
+        "iso2": "mo",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Macanese",
+          "demonym_es": "macaense"
+        }
+      },
+      {
+        "name": "North Macedonia",
+        "name_es": "Macedonia del Norte",
+        "iso2": "mk",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Macedonian",
+          "demonym_es": "macedonio/a"
+        }
+      },
+      {
+        "name": "Madagascar",
+        "name_es": "Madagascar",
+        "iso2": "mg",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Malagasy",
+          "demonym_es": "malgache"
+        }
+      },
+      {
+        "name": "Malawi",
+        "name_es": "Malaui",
+        "iso2": "mw",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Malawian",
+          "demonym_es": "malauí"
+        }
+      },
+      {
+        "name": "Malaysia",
+        "name_es": "Malasia",
+        "iso2": "my",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Malaysian",
+          "demonym_es": "malasio/a"
+        }
+      },
+      {
+        "name": "Maldives",
+        "name_es": "Maldivas",
+        "iso2": "mv",
+        "timezone": 5,
+        "demonyms": {
+          "demonym_en": "Maldivian",
+          "demonym_es": "maldivo/a"
+        }
+      },
+      {
+        "name": "Mali",
+        "name_es": "Malí",
+        "iso2": "ml",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Malian",
+          "demonym_es": "maliense"
+        }
+      },
+      {
+        "name": "Malta",
+        "name_es": "Malta",
+        "iso2": "mt",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Maltese",
+          "demonym_es": "maltés/maltesa"
+        }
+      },
+      {
+        "name": "Marshall Islands",
+        "name_es": "Islas Marshall",
+        "iso2": "mh",
+        "timezone": 12,
+        "demonyms": {
+          "demonym_en": "Marshallese",
+          "demonym_es": "marshalés/marshalesa"
+        }
+      },
+      {
+        "name": "Martinique",
+        "name_es": "Martinica",
+        "iso2": "mq",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "French",
+          "demonym_es": "francés/francesa"
+        }
+      },
+      {
+        "name": "Mauritania",
+        "name_es": "Mauritania",
+        "iso2": "mr",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Mauritanian",
+          "demonym_es": "mauritano/a"
+        }
+      },
+      {
+        "name": "Mauritius",
+        "name_es": "Mauricio",
+        "iso2": "mu",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "Mauritian",
+          "demonym_es": "mauriciano/a"
+        }
+      },
+      {
+        "name": "Mexico",
+        "name_es": "México",
+        "iso2": "mx",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Mexican",
+          "demonym_es": "mexicano/a"
+        }
+      },
+      {
+        "name": "Micronesia",
+        "name_es": "Micronesia",
+        "iso2": "fm",
+        "timezone": 11,
+        "demonyms": {
+          "demonym_en": "Micronesian",
+          "demonym_es": "micronesio/a"
+        }
+      },
+      {
+        "name": "Moldova",
+        "name_es": "Moldavia",
+        "iso2": "md",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Moldovan",
+          "demonym_es": "moldavo/a"
+        }
+      },
+      {
+        "name": "Monaco",
+        "name_es": "Mónaco",
+        "iso2": "mc",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Monacan",
+          "demonym_es": "monegasco/a"
+        }
+      },
+      {
+        "name": "Mongolia",
+        "name_es": "Mongolia",
+        "iso2": "mn",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Mongolian",
+          "demonym_es": "mongol/mongola"
+        }
+      },
+      {
+        "name": "Montenegro",
+        "name_es": "Montenegro",
+        "iso2": "me",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Montenegrin",
+          "demonym_es": "montenegrino/a"
+        }
+      },
+      {
+        "name": "Morocco",
+        "name_es": "Marruecos",
+        "iso2": "ma",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Moroccan",
+          "demonym_es": "marroquí"
+        }
+      },
+      {
+        "name": "Mozambique",
+        "name_es": "Mozambique",
+        "iso2": "mz",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Mozambican",
+          "demonym_es": "mozambiqueño/a"
+        }
+      },
+      {
+        "name": "Myanmar",
+        "name_es": "Myanmar",
+        "iso2": "mm",
+        "timezone": 6.5,
+        "demonyms": {
+          "demonym_en": "Burmese",
+          "demonym_es": "birmano/a"
+        }
+      },
+      {
+        "name": "Namibia",
+        "name_es": "Namibia",
+        "iso2": "na",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Namibian",
+          "demonym_es": "namibio/a"
+        }
+      },
+      {
+        "name": "Nauru",
+        "name_es": "Nauru",
+        "iso2": "nr",
+        "timezone": 12,
+        "demonyms": {
+          "demonym_en": "Nauruan",
+          "demonym_es": "nauruano/a"
+        }
+      },
+      {
+        "name": "Nepal",
+        "name_es": "Nepal",
+        "iso2": "np",
+        "timezone": 5.75,
+        "demonyms": {
+          "demonym_en": "Nepalese",
+          "demonym_es": "nepalí"
+        }
+      },
+      {
+        "name": "Netherlands",
+        "name_es": "Países Bajos",
+        "iso2": "nl",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Dutch",
+          "demonym_es": "neerlandés/neerlandesa"
+        }
+      },
+      {
+        "name": "New Caledonia",
+        "name_es": "Nueva Caledonia",
+        "iso2": "nc",
+        "timezone": 11,
+        "demonyms": {
+          "demonym_en": "French",
+          "demonym_es": "francés/francesa"
+        }
+      },
+      {
+        "name": "New Zealand",
+        "name_es": "Nueva Zelanda",
+        "iso2": "nz",
+        "timezone": 12,
+        "demonyms": {
+          "demonym_en": "New Zealander",
+          "demonym_es": "neozelandés/neozelandesa"
+        }
+      },
+      {
+        "name": "Nicaragua",
+        "name_es": "Nicaragua",
+        "iso2": "ni",
+        "timezone": -6,
+        "demonyms": {
+          "demonym_en": "Nicaraguan",
+          "demonym_es": "nicaragüense"
+        }
+      },
+      {
+        "name": "Niger",
+        "name_es": "Níger",
+        "iso2": "ne",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Nigerien",
+          "demonym_es": "nigerino/a"
+        }
+      },
+      {
+        "name": "Nigeria",
+        "name_es": "Nigeria",
+        "iso2": "ng",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Nigerian",
+          "demonym_es": "nigeriano/a"
+        }
+      },
+      {
+        "name": "North Korea",
+        "name_es": "Corea del Norte",
+        "iso2": "kp",
+        "timezone": 9,
+        "demonyms": {
+          "demonym_en": "North Korean",
+          "demonym_es": "norcoreano/a"
+        }
+      },
+      {
+        "name": "Norway",
+        "name_es": "Noruega",
+        "iso2": "no",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Norwegian",
+          "demonym_es": "noruego/a"
+        }
+      },
+      {
+        "name": "Oman",
+        "name_es": "Omán",
+        "iso2": "om",
+        "timezone": 4,
+        "demonyms": { "demonym_en": "Omani", "demonym_es": "omaní" }
+      },
+      {
+        "name": "Pakistan",
+        "name_es": "Pakistán",
+        "iso2": "pk",
+        "timezone": 5,
+        "demonyms": {
+          "demonym_en": "Pakistani",
+          "demonym_es": "paquistaní"
+        }
+      },
+      {
+        "name": "Palau",
+        "name_es": "Palaos",
+        "iso2": "pw",
+        "timezone": 9,
+        "demonyms": {
+          "demonym_en": "Palauan",
+          "demonym_es": "palaosiano/a"
+        }
+      },
+      {
+        "name": "Palestine",
+        "name_es": "Palestina",
+        "iso2": "ps",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Palestinian",
+          "demonym_es": "palestino/a"
+        }
+      },
+      {
+        "name": "Panama",
+        "name_es": "Panamá",
+        "iso2": "pa",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Panamanian",
+          "demonym_es": "panameño/a"
+        }
+      },
+      {
+        "name": "Papua New Guinea",
+        "name_es": "Papúa Nueva Guinea",
+        "iso2": "pg",
+        "timezone": 10,
+        "demonyms": {
+          "demonym_en": "Papua New Guinean",
+          "demonym_es": "papú/a neoguineano/a"
+        }
+      },
+      {
+        "name": "Paraguay",
+        "name_es": "Paraguay",
+        "iso2": "py",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Paraguayan",
+          "demonym_es": "paraguayo/a"
+        }
+      },
+      {
+        "name": "Peru",
+        "name_es": "Perú",
+        "iso2": "pe",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "Peruvian",
+          "demonym_es": "peruano/a"
+        }
+      },
+      {
+        "name": "Philippines",
+        "name_es": "Filipinas",
+        "iso2": "ph",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Philippine",
+          "demonym_es": "filipino/a"
+        }
+      },
+      {
+        "name": "Poland",
+        "name_es": "Polonia",
+        "iso2": "pl",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Polish",
+          "demonym_es": "polaco/a"
+        }
+      },
+      {
+        "name": "Portugal",
+        "name_es": "Portugal",
+        "iso2": "pt",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Portuguese",
+          "demonym_es": "portugués/portuguesa"
+        }
+      },
+      {
+        "name": "Puerto Rico",
+        "name_es": "Puerto Rico",
+        "iso2": "pr",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Puerto Rican",
+          "demonym_es": "puertorriqueño/a"
+        }
+      },
+      {
+        "name": "Qatar",
+        "name_es": "Catar",
+        "iso2": "qa",
+        "timezone": 3,
+        "demonyms": { "demonym_en": "Qatari", "demonym_es": "catarí" }
+      },
+      {
+        "name": "Réunion",
+        "name_es": "Reunión",
+        "iso2": "re",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "French",
+          "demonym_es": "francés/francesa"
+        }
+      },
+      {
+        "name": "Romania",
+        "name_es": "Rumanía",
+        "iso2": "ro",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Romanian",
+          "demonym_es": "rumano/a"
+        }
+      },
+      {
+        "name": "Russia",
+        "name_es": "Rusia",
+        "iso2": "ru",
+        "timezone": 3,
+        "demonyms": { "demonym_en": "Russian", "demonym_es": "ruso/a" }
+      },
+      {
+        "name": "Rwanda",
+        "name_es": "Ruanda",
+        "iso2": "rw",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Rwandan",
+          "demonym_es": "ruandés/ruandesa"
+        }
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "name_es": "San Cristóbal y Nieves",
+        "iso2": "kn",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Kittian/Nevisian",
+          "demonym_es": "sancristobaleño/a"
+        }
+      },
+      {
+        "name": "Saint Lucia",
+        "name_es": "Santa Lucía",
+        "iso2": "lc",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Saint Lucian",
+          "demonym_es": "santalucense"
+        }
+      },
+      {
+        "name": "Samoa",
+        "name_es": "Samoa",
+        "iso2": "ws",
+        "timezone": 13,
+        "demonyms": {
+          "demonym_en": "Samoan",
+          "demonym_es": "samoano/a"
+        }
+      },
+      {
+        "name": "San Marino",
+        "name_es": "San Marino",
+        "iso2": "sm",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Sammarinese",
+          "demonym_es": "sanmarinense"
+        }
+      },
+      {
+        "name": "São Tomé and Príncipe",
+        "name_es": "Santo Tomé y Príncipe",
+        "iso2": "st",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "São Toméan",
+          "demonym_es": "santotomense"
+        }
+      },
+      {
+        "name": "Saudi Arabia",
+        "name_es": "Arabia Saudita",
+        "iso2": "sa",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Saudi Arabian",
+          "demonym_es": "saudí"
+        }
+      },
+      {
+        "name": "Senegal",
+        "name_es": "Senegal",
+        "iso2": "sn",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Senegalese",
+          "demonym_es": "senegalés/senegalesa"
+        }
+      },
+      {
+        "name": "Serbia",
+        "name_es": "Serbia",
+        "iso2": "rs",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Serbian",
+          "demonym_es": "serbio/a"
+        }
+      },
+      {
+        "name": "Seychelles",
+        "name_es": "Seychelles",
+        "iso2": "sc",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "Seychellois",
+          "demonym_es": "seychellense"
+        }
+      },
+      {
+        "name": "Sierra Leone",
+        "name_es": "Sierra Leona",
+        "iso2": "sl",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Sierra Leonean",
+          "demonym_es": "sierraleonés/sierraleonesa"
+        }
+      },
+      {
+        "name": "Singapore",
+        "name_es": "Singapur",
+        "iso2": "sg",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Singaporean",
+          "demonym_es": "singapurense"
+        }
+      },
+      {
+        "name": "Slovakia",
+        "name_es": "Eslovaquia",
+        "iso2": "sk",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Slovak",
+          "demonym_es": "eslovaco/a"
+        }
+      },
+      {
+        "name": "Slovenia",
+        "name_es": "Eslovenia",
+        "iso2": "si",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Slovenian",
+          "demonym_es": "esloveno/a"
+        }
+      },
+      {
+        "name": "Solomon Islands",
+        "name_es": "Islas Salomón",
+        "iso2": "sb",
+        "timezone": 11,
+        "demonyms": {
+          "demonym_en": "Solomon Islander",
+          "demonym_es": "salomonense"
+        }
+      },
+      {
+        "name": "Somalia",
+        "name_es": "Somalia",
+        "iso2": "so",
+        "timezone": 3,
+        "demonyms": { "demonym_en": "Somali", "demonym_es": "somalí" }
+      },
+      {
+        "name": "South Africa",
+        "name_es": "Sudáfrica",
+        "iso2": "za",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "South African",
+          "demonym_es": "sudafricano/a"
+        }
+      },
+      {
+        "name": "South Korea",
+        "name_es": "Corea del Sur",
+        "iso2": "kr",
+        "timezone": 9,
+        "demonyms": {
+          "demonym_en": "South Korean",
+          "demonym_es": "surcoreano/a"
+        }
+      },
+      {
+        "name": "South Sudan",
+        "name_es": "Sudán del Sur",
+        "iso2": "ss",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "South Sudanese",
+          "demonym_es": "sursudanés/sursudanesa"
+        }
+      },
+      {
+        "name": "Spain",
+        "name_es": "España",
+        "iso2": "es",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Spanish",
+          "demonym_es": "español/a"
+        }
+      },
+      {
+        "name": "Sri Lanka",
+        "name_es": "Sri Lanka",
+        "iso2": "lk",
+        "timezone": 5.5,
+        "demonyms": {
+          "demonym_en": "Sri Lankan",
+          "demonym_es": "ceylonés/ceylonesa"
+        }
+      },
+      {
+        "name": "Sudan",
+        "name_es": "Sudán",
+        "iso2": "sd",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Sudanese",
+          "demonym_es": "sudanés/sudanesa"
+        }
+      },
+      {
+        "name": "Suriname",
+        "name_es": "Surinam",
+        "iso2": "sr",
+        "timezone": -3,
+        "demonyms": {
+          "demonym_en": "Surinamese",
+          "demonym_es": "surinamés/surinamesa"
+        }
+      },
+      {
+        "name": "Sweden",
+        "name_es": "Suecia",
+        "iso2": "se",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Swedish",
+          "demonym_es": "sueco/a"
+        }
+      },
+      {
+        "name": "Switzerland",
+        "name_es": "Suiza",
+        "iso2": "ch",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Swiss",
+          "demonym_es": "suizo/a"
+        }
+      },
+      {
+        "name": "Syria",
+        "name_es": "Siria",
+        "iso2": "sy",
+        "timezone": 2,
+        "demonyms": { "demonym_en": "Syrian", "demonym_es": "sirio/a" }
+      },
+      {
+        "name": "Taiwan",
+        "name_es": "Taiwán",
+        "iso2": "tw",
+        "timezone": 8,
+        "demonyms": {
+          "demonym_en": "Taiwanese",
+          "demonym_es": "taiwanés/taiwanesa"
+        }
+      },
+      {
+        "name": "Tajikistan",
+        "name_es": "Tayikistán",
+        "iso2": "tj",
+        "timezone": 5,
+        "demonyms": {
+          "demonym_en": "Tajik",
+          "demonym_es": "tayiko/a"
+        }
+      },
+      {
+        "name": "Tanzania",
+        "name_es": "Tanzania",
+        "iso2": "tz",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Tanzanian",
+          "demonym_es": "tanzano/a"
+        }
+      },
+      {
+        "name": "Thailand",
+        "name_es": "Tailandia",
+        "iso2": "th",
+        "timezone": 7,
+        "demonyms": {
+          "demonym_en": "Thai",
+          "demonym_es": "tailandés/tailandesa"
+        }
+      },
+      {
+        "name": "Timor-Leste",
+        "name_es": "Timor Oriental",
+        "iso2": "tl",
+        "timezone": 9,
+        "demonyms": {
+          "demonym_en": "Timorese",
+          "demonym_es": "timorense"
+        }
+      },
+      {
+        "name": "Togo",
+        "name_es": "Togo",
+        "iso2": "tg",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "Togolese",
+          "demonym_es": "togolés/togolesa"
+        }
+      },
+      {
+        "name": "Tonga",
+        "name_es": "Tonga",
+        "iso2": "to",
+        "timezone": 13,
+        "demonyms": {
+          "demonym_en": "Tongan",
+          "demonym_es": "tongano/a"
+        }
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "name_es": "Trinidad y Tobago",
+        "iso2": "tt",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Trinidadian/Tobagonian",
+          "demonym_es": "trinitense/tobagense"
+        }
+      },
+      {
+        "name": "Tunisia",
+        "name_es": "Túnez",
+        "iso2": "tn",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Tunisian",
+          "demonym_es": "tunecino/a"
+        }
+      },
+      {
+        "name": "Turkey",
+        "name_es": "Turquía",
+        "iso2": "tr",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Turkish",
+          "demonym_es": "turco/a"
+        }
+      },
+      {
+        "name": "Turkmenistan",
+        "name_es": "Turkmenistán",
+        "iso2": "tm",
+        "timezone": 5,
+        "demonyms": {
+          "demonym_en": "Turkmen",
+          "demonym_es": "turcomano/a"
+        }
+      },
+      {
+        "name": "Tuvalu",
+        "name_es": "Tuvalu",
+        "iso2": "tv",
+        "timezone": 12,
+        "demonyms": {
+          "demonym_en": "Tuvaluan",
+          "demonym_es": "tuvaluano/a"
+        }
+      },
+      {
+        "name": "Uganda",
+        "name_es": "Uganda",
+        "iso2": "ug",
+        "timezone": 3,
+        "demonyms": {
+          "demonym_en": "Ugandan",
+          "demonym_es": "ugandés/ugandesa"
+        }
+      },
+      {
+        "name": "Ukraine",
+        "name_es": "Ucrania",
+        "iso2": "ua",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Ukrainian",
+          "demonym_es": "ucraniano/a"
+        }
+      },
+      {
+        "name": "United Arab Emirates",
+        "name_es": "Emiratos Árabes Unidos",
+        "iso2": "ae",
+        "timezone": 4,
+        "demonyms": {
+          "demonym_en": "Emirati",
+          "demonym_es": "emiratí"
+        }
+      },
+      {
+        "name": "United Kingdom",
+        "name_es": "Reino Unido",
+        "iso2": "gb",
+        "timezone": 0,
+        "demonyms": {
+          "demonym_en": "British",
+          "demonym_es": "británico/a"
+        }
+      },
+      {
+        "name": "United States",
+        "name_es": "Estados Unidos",
+        "iso2": "us",
+        "timezone": -5,
+        "demonyms": {
+          "demonym_en": "American",
+          "demonym_es": "estadounidense"
+        }
+      },
+      {
+        "name": "Uruguay",
+        "name_es": "Uruguay",
+        "iso2": "uy",
+        "timezone": -3,
+        "demonyms": {
+          "demonym_en": "Uruguayan",
+          "demonym_es": "uruguayo/a"
+        }
+      },
+      {
+        "name": "Uzbekistan",
+        "name_es": "Uzbekistán",
+        "iso2": "uz",
+        "timezone": 5,
+        "demonyms": {
+          "demonym_en": "Uzbekistani",
+          "demonym_es": "uzbeko/a"
+        }
+      },
+      {
+        "name": "Vanuatu",
+        "name_es": "Vanuatu",
+        "iso2": "vu",
+        "timezone": 11,
+        "demonyms": {
+          "demonym_en": "Ni-Vanuatu",
+          "demonym_es": "vanuatuense"
+        }
+      },
+      {
+        "name": "Vatican City",
+        "name_es": "Ciudad del Vaticano",
+        "iso2": "va",
+        "timezone": 1,
+        "demonyms": {
+          "demonym_en": "Vatican",
+          "demonym_es": "vaticano/a"
+        }
+      },
+      {
+        "name": "Venezuela",
+        "name_es": "Venezuela",
+        "iso2": "ve",
+        "timezone": -4,
+        "demonyms": {
+          "demonym_en": "Venezuelan",
+          "demonym_es": "venezolano/a"
+        }
+      },
+      {
+        "name": "Vietnam",
+        "name_es": "Vietnam",
+        "iso2": "vn",
+        "timezone": 7,
+        "demonyms": {
+          "demonym_en": "Vietnamese",
+          "demonym_es": "vietnamita"
+        }
+      },
+      {
+        "name": "Yemen",
+        "name_es": "Yemen",
+        "iso2": "ye",
+        "timezone": 3,
+        "demonyms": { "demonym_en": "Yemeni", "demonym_es": "yemení" }
+      },
+      {
+        "name": "Zambia",
+        "name_es": "Zambia",
+        "iso2": "zm",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Zambian",
+          "demonym_es": "zambiano/a"
+        }
+      },
+      {
+        "name": "Zimbabwe",
+        "name_es": "Zimbabue",
+        "iso2": "zw",
+        "timezone": 2,
+        "demonyms": {
+          "demonym_en": "Zimbabwean",
+          "demonym_es": "zimbabuense"
+        }
+      }
+    ]
+  }
+  
