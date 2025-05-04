@@ -11,7 +11,13 @@ addons.setConfig({
   initialActive: 'sidebar',
   sidebar: {
     showRoots: true,
-    collapsedRoots: ['components', 'pages', 'partials'],
+    collapsedRoots: [
+      'components',
+      'helpers',
+      'hooks',
+      'services',
+      'stores',
+    ],
   },
   toolbar: {
     title: { hidden: false },
