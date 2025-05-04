@@ -1,6 +1,6 @@
 {
   "name": "compositly",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "This is a LIB-react for the Compositly project. It is a React component library",
   "version": "0.0.1",
   "author": {
