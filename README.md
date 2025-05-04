@@ -1,9 +1,13 @@
 # Compositly
 
-[![Logo](./docs/logo.svg)](https://compositly.com)
+<p align="center">
+  <a href="https://compositly.com">
+    <img src="./docs/logo.svg" alt="Logo" height="100" />
+  </a>
+</p>
 
-[![GitHub stars](https://img.shields.io/github/stars/compositly/compositly.svg?style=social&label=Star)](
-[![npm](https://img.shields.io/npm/v/compositly-lib-react.svg)](https://www.npmjs.com/package/compositly-lib-react)
+[![GitHub stars](https://img.shields.io/github/stars/compositly/compositly.svg?style=social&label=Star)]
+[![npm](https://img.shields.io/npm/v/compositly.svg)](https://www.npmjs.com/package/compositly)
 [![GitHub issues](https://img.shields.io/github/issues/compositly/compositly.svg)]
 [![License](https://img.shields.io/github/license/compositly/compositly)](./LICENSE)
 
