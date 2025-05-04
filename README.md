@@ -1,84 +1,152 @@
 # Compositly
 
-[![npm](https://img.shields.io/npm/v/compositly-lib-react.svg)](https://www.npmjs.com/package/compositly)
-[![GitHub issues](https://img.shields.io/github/issues/compositly/compositly.svg)](
+[![npm](https://img.shields.io/npm/v/compositly-lib-react.svg)](https://www.npmjs.com/package/compositly-lib-react)
+[![GitHub issues](https://img.shields.io/github/issues/compositly/compositly.svg)]
+[![License](https://img.shields.io/github/license/compositly/compositly)](./LICENSE)
 
-This is a LIB-react for the Compositly project. It is a React component library
+A modern React component library for building consistent, composable UIs. Built with Tailwind CSS and designed for rapid development.
 
-# How to use?
+---
 
-Use the official documentation at [compositly.com](https://docs.compositly.com/) to learn how to use the SDK.
+## 🚀 Features
 
-## Development
+- ✨ Beautiful and accessible components
+- ⚙️ Easy customization via Tailwind
+- 🧩 Composable and reusable hooks, services, and stores
+- 📚 Documentation & Storybook integration
 
-Install dependencies
+---
 
-```bash
-  npm install
-```
-
-CI/CD
-
-```bash
-  npm run ci
-```
-
-Start the development server
+## 📦 Installation
 
 ```bash
-  npm run dev
+npm install compositly
 ```
 
-After making changes to the code, run the following command to format the code, run the linter, and start the development server:
+or
 
 ```bash
-  npm run css && npm run lint && npm run format && npm ci:compile
+yarn add compositly
 ```
 
-**WARNING** : Don't forget to remove unused css classes from the `public/output.css` file becase tailwind.css generates a lot of unused css classes.
+---
 
-## NPM Scripts
+## 🧪 Usage
 
-| Script          | Description                                                                                      |
-| :-------------- | :----------------------------------------------------------------------------------------------- |
-| `dev`           | Starts the development server                                                                    |
-| `css`           | Builds the CSS                                                                                   |
-| `css:dev`       | Builds the CSS in development mode                                                               |
-| `test`          | Runs the tests and generates a coverage report                                                   |
-| `lint`          | Runs the linter                                                                                  |
-| `lint:fix`      | Runs the linter and fixes the errors                                                             |
-| `format`        | Formats the code                                                                                 |
-| `build`         | Builds the app for production                                                                    |
-| `preview`       | Builds the app for production and previews it locally                                            |
-| `ci`            | Runs the tests, linter, and code formatter                                                       |
-| `stories`       | Starts the Storybook server                                                                      |
-| `stories:build` | Builds the Storybook app for production                                                          |
-| `docs`          | Starts the documentation server                                                                  |
-| `docs:build`    | Builds the documentation app for production                                                      |
-| `clean`         | Removes `dist`, `dist-stories`, `dist-docs`, `package-lock.json`, `.coverage` and `node_modules` |
-
-## Usage/Examples
-
-```javascript
-import 'compositly/public/output.css' // Import Tailwind CSS
+```tsx
+import 'compositly/public/output.css' // Tailwind styles
 import {
   // components
+  EmptyBox,
   // helpers
   // hooks
   // services
   // stores
 } from 'compositly'
-import { useState } from 'react'
 
 export default function App() {
-  return (
-    <div>
-      {/* Your components go here */}
-    </div>
-  )
+  return <EmptyBox text='Hello world!' />
 }
 ```
 
-## Authors
+📘 For our website, viti [compositly.com](https://compositly.com)
+📘 For full documentation, visit [docs.compositly.com](https://docs.compositly.com)
 
-compositly.com Team
+---
+
+## 🛠️ Development
+
+### Setup
+
+```bash
+npm install
+```
+
+### Run dev server
+
+```bash
+npm run dev
+```
+
+### Full build & lint cycle
+
+```bash
+npm run ci
+```
+
+or 
+
+```bash
+yarn ci
+```
+
+**⚠️ Reminder**: Clean up unused CSS classes in `public/output.css` after changes. Tailwind can generate many unused classes.
+
+---
+
+## 📜 NPM Scripts
+
+| Script          | Description                                                                                      |
+|-----------------|--------------------------------------------------------------------------------------------------|
+| `dev`           | Starts the development server                                                                    |
+| `css`           | Builds the CSS                                                                                   |
+| `css:dev`       | Builds CSS in watch/dev mode                                                                     |
+| `test`          | Runs tests with coverage                                                                         |
+| `lint`          | Runs ESLint                                                                                      |
+| `lint:fix`      | Fixes lint errors                                                                                |
+| `format`        | Formats code using Prettier                                                                      |
+| `build`         | Builds for production                                                                            |
+| `preview`       | Previews the production build locally                                                            |
+| `ci`            | Runs tests, lint, and formatting                                                                 |
+| `stories`       | Starts the Storybook server                                                                      |
+| `stories:build` | Builds the Storybook site                                                                        |
+| `docs`          | Starts the documentation server                                                                  |
+| `docs:build`    | Builds the documentation for production                                                          |
+| `clean`         | Cleans `dist`, `node_modules`, `package-lock.json`, etc.                                         |
+
+---
+
+## 🧩 Components / Modules
+
+- **Components** – Prebuilt UI elements (e.g. `Button`, `Modal`, `Card`)
+- **Hooks** – Custom hooks for common logic
+- **Services** – API or utility functions
+- **Stores** – Zustand-based global stores
+- **Helpers** – Pure utility functions
+
+---
+
+## 👥 Contributing
+
+We welcome contributions! Please read our [contributing guide](CONTRIBUTING.md) and follow the code style defined in `.eslintrc`.
+
+---
+
+## 📄 License
+
+[MIT](./LICENSE)
+
+---
+
+## 💸 Donate
+
+If you find Compositly helpful and want to support its development, you can make a donation — every bit helps us build faster and better!
+
+🔗 **Donate here**: [https://compositly.com/donate](https://compositly.com/donate)
+
+You can donate using crypto or traditional payment platforms. Thank you for your support! 💙
+
+---
+
+## 📬 Contact Us
+
+For questions, feedback, or business inquiries:
+
+**✉️ Email**: [netzuleando@gmail.com](mailto:netzuleando@gmail.com)  
+**🌐 Website**: [https://compositly.com](https://compositly.com)
+
+---
+
+## 👨‍💻 Authors
+
+Made with ❤️ by the [Compositly Team](https://compositly.com)
