@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars, no-unused-vars
+import React from 'react'
 import ComponentBase from '../../../../src/components/core/ComponentBase'
 
 export default {
@@ -10,10 +11,10 @@ export default {
 const Template = () => {
   return (
     <div
-      className='bal-relative bal-flex bal-h-40 bal-w-full  
-      bal-items-center bal-justify-center bal-overflow-hidden'
+      className='c-relative c-flex c-h-40 c-w-full  
+      c-items-center c-justify-center c-overflow-hidden'
     >
-      <ComponentBase />
+      <ComponentBase id='hello' />
     </div>
   )
 }

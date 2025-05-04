@@ -9,6 +9,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:storybook/recommended',
   ],
@@ -19,12 +20,22 @@ module.exports = {
   ],
   overrides: [
     {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        project: './tsconfig.json', // opcional
+        tsconfigRootDir: __dirname,
+      },
+      plugins: ['@typescript-eslint'],
+      rules: {}
+    },
+    {
       env: {
         node: true
       },
-      files: [
-        '.eslintrc.{js,cjs}'
-      ],
+      files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'script'
       }
@@ -44,7 +55,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'eqeqeq': 'off',
-    'react/no-is-mounted': "warn",
+    'react/no-is-mounted': 'warn',
   },
   settings: {
     react: {

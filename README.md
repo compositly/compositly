@@ -1,5 +1,8 @@
 # Compositly
 
+[![Logo](./docs/logo.svg)](https://compositly.com)
+
+[![GitHub stars](https://img.shields.io/github/stars/compositly/compositly.svg?style=social&label=Star)](
 [![npm](https://img.shields.io/npm/v/compositly-lib-react.svg)](https://www.npmjs.com/package/compositly-lib-react)
 [![GitHub issues](https://img.shields.io/github/issues/compositly/compositly.svg)]
 [![License](https://img.shields.io/github/license/compositly/compositly)](./LICENSE)
@@ -79,6 +82,10 @@ or
 ```bash
 yarn ci
 ```
+
+Coverage image is generated in `.coverage/index.html`.
+
+[![Coverage](./docs/coverage.png)]
 
 **⚠️ Reminder**: Clean up unused CSS classes in `public/output.css` after changes. Tailwind can generate many unused classes.
 
