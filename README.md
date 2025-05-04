@@ -44,7 +44,7 @@ yarn add compositly
 import 'compositly/public/output.css' // Tailwind styles
 import {
   // components
-  EmptyBox,
+  ComponentBase,
   // helpers
   // hooks
   // services
@@ -52,7 +52,7 @@ import {
 } from 'compositly'
 
 export default function App() {
-  return <EmptyBox text='Hello world!' />
+  return <ComponentBase id='hello-world' />
 }
 ```
 
@@ -89,7 +89,7 @@ yarn ci
 
 Coverage image is generated in `.coverage/index.html`.
 
-[![Coverage](./docs/coverage.png)]
+![Coverage](./docs/coverage.png)
 
 **⚠️ Reminder**: Clean up unused CSS classes in `public/output.css` after changes. Tailwind can generate many unused classes.
 
