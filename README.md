@@ -87,10 +87,6 @@ or
 yarn ci
 ```
 
-Coverage image is generated in `.coverage/index.html`.
-
-![Coverage](./docs/coverage.png)
-
 **⚠️ Reminder**: Clean up unused CSS classes in `public/output.css` after changes. Tailwind can generate many unused classes.
 
 ---
@@ -130,6 +126,18 @@ Coverage image is generated in `.coverage/index.html`.
 ## 👥 Contributing
 
 We welcome contributions! Please read our [contributing guide](CONTRIBUTING.md) and follow the code style defined in `.eslintrc`.
+
+### Coverage
+
+Coverage is generated in `.coverage/index.html`, and you can view it in your browser. To generate coverage, run:
+
+```bash
+yarn test
+```
+
+This is an example of the coverage report:
+
+![Coverage](./docs/coverage.png)
 
 ---
 
