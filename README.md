@@ -1,15 +1,15 @@
 # Compositly
 
-<p align="center">
+<p align="center" bgcolor="white">
   <a href="https://compositly.com">
-    <img src="./docs/logo.svg" alt="Logo" height="100" />
+    <img src="./docs/logo.svg" alt="Logo" height="200" />
   </a>
 </p>
 
 ![GitHub stars](https://img.shields.io/github/stars/compositly/compositly.svg?style=social&label=Star)
 [![npm](https://img.shields.io/npm/v/compositly.svg)](https://www.npmjs.com/package/compositly)
 ![GitHub issues](https://img.shields.io/github/issues/compositly/compositly.svg)
-[![License](https://img.shields.io/github/license/compositly/compositly)](./LICENSE)
+![License](https://img.shields.io/github/license/compositly/compositly)
 
 A modern React component library for building consistent, composable UIs. Built with Tailwind CSS and designed for rapid development.
 
