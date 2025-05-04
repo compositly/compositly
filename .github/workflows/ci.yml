@@ -1,0 +1,28 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: GIT Checkout
+        uses: actions/checkout@v4
+
+      - name: NODE Setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: YARN Setup
+        run: npm install -g yarn
+
+      - name: INTERNAL-CI
+        run: yarn ci
+
