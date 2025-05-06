@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { Example } from '../interfaces/Example'
 
-interface AgendaState {
+interface ExampleState {
   exampleArray: Example[]
   setExampleArray: (exampleArray: Example[]) => void
   selectedExample: Example | null
@@ -9,14 +9,14 @@ interface AgendaState {
 }
 
 const initialState: Omit<
-  AgendaState,
+ExampleState,
   'setExampleArray' | 'setSelectedExample'
 > = {
   exampleArray: [{ id: '1' }, { id: '2' }, { id: '3' }],
   selectedExample: null,
 }
 
-export const useStoreAgenda = create<AgendaState>((set) => ({
+export const useStoreExample = create<ExampleState>((set) => ({
   ...initialState,
   setExampleArray: (exampleArray) =>
     set((state) => ({ ...state, exampleArray })),
