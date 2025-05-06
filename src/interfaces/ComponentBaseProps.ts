@@ -1,6 +1,7 @@
-import React from "react"
+import React from 'react'
 
-export interface ComponentBaseProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface ComponentBaseProps
+  extends React.HTMLAttributes<HTMLDivElement> {
   /**
    * The unique identifier for the component.
    * This is used to identify the component in the DOM and for styling purposes.
