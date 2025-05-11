@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { Meta, StoryObj } from "@storybook/react";
-import Notifications from "../../../../src/components/notifications";
-import { useStoreNotifications } from "../../../../src/stores/useStoreNotifications";
-import { NewNotification } from "../../../../src/interfaces/Notification";
+import { useState } from 'react'
+import { Meta, StoryObj } from '@storybook/react'
+import Notifications from '../../../../src/components/notifications'
+import { useStoreNotifications } from '../../../../src/stores/useStoreNotifications'
+import { NewNotification } from '../../../../src/interfaces/Notification'
 
 const meta: Meta<typeof Notifications> = {
-  title: "components/notifications/Notifications",
+  title: 'components/notifications/Notifications',
   component: Notifications,
-  tags: ["autodocs"],
+  tags: ['autodocs'],
   parameters: {
     docs: {
       description: {
@@ -52,67 +52,67 @@ This component is meant to be mounted only once. It automatically handles auto-d
       },
     },
   },
-};
+}
 
-export default meta;
+export default meta
 
-type Story = StoryObj<typeof Notifications>;
+type Story = StoryObj<typeof Notifications>
 
 const notificationVariants: NewNotification[] = [
   {
-    title: "Success",
-    message: "The operation was completed successfully.",
-    type: "success",
+    title: 'Success',
+    message: 'The operation was completed successfully.',
+    type: 'success',
   },
   {
-    title: "Warning",
+    title: 'Warning',
     message:
-      "There might be an issue. Please check your configuration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    type: "warning",
+      'There might be an issue. Please check your configuration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
+    type: 'warning',
   },
   {
-    title: "Error",
-    message: "There was an error processing your request.",
-    type: "error",
+    title: 'Error',
+    message: 'There was an error processing your request.',
+    type: 'error',
   },
   {
-    title: "Info",
-    message: "This is an informational message.",
-    type: "info",
+    title: 'Info',
+    message: 'This is an informational message.',
+    type: 'info',
   },
   {
-    title: "Danger",
-    message: "This action is dangerous. Proceed with caution.",
-    type: "danger",
+    title: 'Danger',
+    message: 'This action is dangerous. Proceed with caution.',
+    type: 'danger',
   },
-];
+]
 
 const Template = () => {
   const addNotification = useStoreNotifications(
-    (state) => state.addNotification
-  );
-  const [index, setIndex] = useState(0);
+    (state) => state.addNotification,
+  )
+  const [index, setIndex] = useState(0)
 
   const handleClick = () => {
-    addNotification(notificationVariants[index]);
-    setIndex((prev) => (prev + 1) % notificationVariants.length);
-  };
+    addNotification(notificationVariants[index])
+    setIndex((prev) => (prev + 1) % notificationVariants.length)
+  }
 
   return (
-    <div className="c-relative c-flex c-h-40 c-w-full c-items-center c-justify-start c-overflow-hidden">
+    <div className='c-relative c-flex c-h-40 c-w-full c-items-center c-justify-start c-overflow-hidden'>
       <button
         onClick={handleClick}
-        className="c-bg-blue-600 c-text-white c-rounded-md c-px-4 c-py-2 
-        hover:c-bg-blue-700 c-transition c-border-none c-cursor-pointer"
+        className='c-cursor-pointer c-rounded-md c-border-none c-bg-blue-600 c-px-4 
+        c-py-2 c-text-white c-transition hover:c-bg-blue-700'
       >
         Show Notification
       </button>
       <Notifications />
     </div>
-  );
-};
+  )
+}
 
 export const Interactive: Story = {
-  name: "Interactive",
+  // name: "Interactive",
   render: Template,
-};
+}

@@ -21,4 +21,4 @@ export const notificationMotionVariants = {
       ease: [0.4, 0, 1, 1],
     },
   },
-};
+}

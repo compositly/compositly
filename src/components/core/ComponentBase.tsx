@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
-import React from "react";
-import { ComponentBaseProps } from "../../interfaces/ComponentBaseProps";
+import React from 'react'
+import { ComponentBaseProps } from '../../interfaces/ComponentBaseProps'
 
 export default function ComponentBase({
   id,
   children,
-  className = "c-flex c-h-full c-w-full c-items-center c-justify-center",
+  className = 'c-flex c-h-full c-w-full c-items-center c-justify-center',
 }: ComponentBaseProps) {
   // This is a base component that can be extended by other components.
   // It can contain common logic, styles, or any other shared functionality.
@@ -14,5 +14,5 @@ export default function ComponentBase({
     <div id={id} className={className}>
       {children}
     </div>
-  );
+  )
 }

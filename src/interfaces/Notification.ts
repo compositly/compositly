@@ -10,11 +10,11 @@
  * const notificationType: NotificationType = 'success'
  */
 export type NotificationType =
-  | "warning"
-  | "danger"
-  | "success"
-  | "info"
-  | "error";
+  | 'warning'
+  | 'danger'
+  | 'success'
+  | 'info'
+  | 'error'
 
 /**
  * Interface representing a single notification object.
@@ -37,21 +37,21 @@ export type NotificationType =
  * }
  */
 export interface Notification {
-  id: string;
-  title: string;
-  message: string;
-  type: NotificationType;
+  id: string
+  title: string
+  message: string
+  type: NotificationType
 }
 
 /**
  * Props needed to create a new notification (without id).
  */
-export type NewNotification = Omit<Notification, "id">;
+export type NewNotification = Omit<Notification, 'id'>
 
 export interface NotificationsItemProps {
-  notification: Notification;
+  notification: Notification
 }
 
 export interface NotificationBaseProps {
-  notification: Notification;
+  notification: Notification
 }

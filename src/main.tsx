@@ -1,9 +1,9 @@
-import "./../public/output.css"; // Import Tailwind CSS
+import './../public/output.css' // Import Tailwind CSS
 
 // components/core
-import ComponentBase from "./components/core/ComponentBase";
-import Notifications from "./components/notifications";
-import { useStoreNotifications } from "../src/stores/useStoreNotifications";
+import ComponentBase from './components/core/ComponentBase'
+import Notifications from './components/notifications'
+import { useStoreNotifications } from '../src/stores/useStoreNotifications'
 // components/empties
 // import AnimatedBase from './components/empties/AnimatedBase'
 // import EmptyBase from './components/empties/EmptyBase'
@@ -31,4 +31,4 @@ export {
   // stores
   useStoreNotifications,
   // useStoreModals,
-};
+}
