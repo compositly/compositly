@@ -210,7 +210,7 @@
 }
 
 /* -------------------- BA DEV STYLES -------------------- */
-.c-border {
+.c-border-red {
   border: 1px solid red !important;
 }
 /* Add to a stories component if we wish */

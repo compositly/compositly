@@ -43,6 +43,11 @@ export interface Notification {
   type: NotificationType;
 }
 
+/**
+ * Props needed to create a new notification (without id).
+ */
+export type NewNotification = Omit<Notification, "id">;
+
 export interface NotificationsItemProps {
   notification: Notification;
 }

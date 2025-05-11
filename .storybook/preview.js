@@ -1,4 +1,5 @@
-import './../public/output.css' // Import Tailwind CSS
+import "./../public/output.css"; // Import Tailwind CSS
+import "./preview.css";
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
@@ -11,6 +12,6 @@ const preview = {
       },
     },
   },
-}
+};
 
-export default preview
+export default preview;

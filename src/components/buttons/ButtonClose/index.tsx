@@ -14,7 +14,8 @@ const ButtonClose = ({
   };
   return (
     <button
-      className={`${className} c-transition-2 c-rounded-full c-cursor-pointer`}
+      className={`${className} c-transition-2 c-rounded-full c-cursor-pointer 
+      c-bg-transparent c-border-none c-outline-none c-flex c-items-center c-justify-center`}
       onClick={onBtnClicked}
     >
       <IoClose className="c-text-gray-500" size={size} />

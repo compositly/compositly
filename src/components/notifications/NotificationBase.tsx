@@ -7,6 +7,7 @@ import {
   NotificationBaseProps,
   NotificationType,
 } from "interfaces/Notification";
+import ComponentBase from "../core/ComponentBase";
 
 const NotificationBase = ({ notification }: NotificationBaseProps) => {
   const getNotificationIconByResult = ({
@@ -15,7 +16,7 @@ const NotificationBase = ({ notification }: NotificationBaseProps) => {
     type: NotificationType;
   }) => {
     return (
-      <div className="c-h-auto c-w-auto c-rounded-full">
+      <div className="c-h-auto c-w-auto c-rounded-full c-flex c-items-center c-justify-center">
         {type === "warning" && (
           <RiErrorWarningFill className="c-text-orange-600" size={34} />
         )}
@@ -35,20 +36,25 @@ const NotificationBase = ({ notification }: NotificationBaseProps) => {
     );
   };
   return (
-    <div className="c-relative c-grid c-grid-cols-[36px_1fr] c-h-full c-w-full c-gap-2 c-min-h-[62px]">
+    <ComponentBase
+      id={`notification-base-${notification.id}`}
+      className="c-relative c-grid c-grid-cols-[36px_1fr] c-h-full c-w-full c-gap-2 c-min-h-[62px]"
+    >
       <span
         className="c-relative c-flex c-h-9 c-w-9 c-items-center c-justify-center 
         c-rounded-full c-bg-indigo-100 c-text-[#0077b6]"
       >
         {getNotificationIconByResult({ type: notification.type })}
       </span>
-      <div className="c-w-full c-h-full c-flex c-flex-col c-items-start c-justify-start">
-        <p className="c-text-gray-900 c-font-semibold">{notification.title}</p>
-        <p className="c-text-gray-700 c-font-medium c-text-sm">
+      <div className="c-w-full c-h-full c-flex c-flex-col c-items-start c-justify-start c-gap-y-1.5">
+        <p className="c-text-gray-900 c-font-semibold c-m-0">
+          {notification.title}
+        </p>
+        <p className="c-text-gray-700 c-font-medium c-text-sm c-m-0">
           {notification.message}
         </p>
       </div>
-    </div>
+    </ComponentBase>
   );
 };
 

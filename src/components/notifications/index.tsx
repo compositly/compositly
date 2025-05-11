@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useStoreNotifications } from "stores/useStoreNotifications";
-import { Notification } from "interfaces/Notification";
+import { useStoreNotifications } from "../../stores/useStoreNotifications";
+import { Notification } from "../../interfaces/Notification";
 import NotificationsItem from "./NotificationsItem";
 
 const Notifications = () => {
