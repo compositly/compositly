@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Meta, StoryObj } from '@storybook/react'
-import Notifications from '../../../../src/components/notifications'
+import { Notifications } from '../../../../src/components/notifications/index'
 import { useStoreNotifications } from '../../../../src/stores/useStoreNotifications'
 import { NewNotification } from '../../../../src/interfaces/Notification'
 

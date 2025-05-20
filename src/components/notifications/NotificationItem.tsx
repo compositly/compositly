@@ -2,13 +2,19 @@
 import React, { useEffect } from 'react'
 import { motion, useIsPresent } from 'framer-motion'
 import { useTimeoutFn } from 'react-use'
-import { NotificationsItemProps } from '../../interfaces/Notification'
+import { Notification } from '../../interfaces/Notification'
 import { useStoreNotifications } from '../../stores/useStoreNotifications'
 import { notificationMotionVariants } from '../../helpers/helpersUI'
-import ButtonClose from '../../components/buttons/ButtonClose'
+import ButtonClose from '../buttons/ButtonClose'
 import NotificationBase from './NotificationBase'
 
-const NotificationsItem = ({ notification }: NotificationsItemProps) => {
+export interface NotificationsItemProps {
+  notification: Notification
+}
+
+export default function NotificationItem({
+  notification,
+}: NotificationsItemProps) {
   const removeNotification = useStoreNotifications(
     (state) => state.removeNotification,
   )
@@ -45,5 +51,3 @@ const NotificationsItem = ({ notification }: NotificationsItemProps) => {
     </motion.li>
   )
 }
-
-export default NotificationsItem

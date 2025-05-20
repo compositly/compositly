@@ -3,13 +3,16 @@ import React from 'react'
 import { MdDangerous, MdOutlineError } from 'react-icons/md'
 import { FaCircleCheck, FaCircleInfo } from 'react-icons/fa6'
 import { RiErrorWarningFill } from 'react-icons/ri'
-import {
-  NotificationBaseProps,
-  NotificationType,
-} from 'interfaces/Notification'
+import { Notification, NotificationType } from 'interfaces/Notification'
 import ComponentBase from '../core/ComponentBase'
 
-const NotificationBase = ({ notification }: NotificationBaseProps) => {
+export interface NotificationBaseProps {
+  notification: Notification
+}
+
+export default function NotificationBase({
+  notification,
+}: NotificationBaseProps) {
   const getNotificationIconByResult = ({
     type = 'success',
   }: {
@@ -57,5 +60,3 @@ const NotificationBase = ({ notification }: NotificationBaseProps) => {
     </ComponentBase>
   )
 }
-
-export default NotificationBase

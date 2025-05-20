@@ -7,5 +7,6 @@
 describe('services: [/nofiles], no tests yet...', () => {
   it('[method]: not tests and no files', () => {
     // TODO: add tests
+    expect(true).toBe(true)
   })
 })

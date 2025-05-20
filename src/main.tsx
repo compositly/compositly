@@ -1,9 +1,9 @@
 import './../public/output.css' // Import Tailwind CSS
 
 // components/core
-import ComponentBase from './components/core/ComponentBase'
-import Notifications from './components/notifications'
-import { useStoreNotifications } from '../src/stores/useStoreNotifications'
+import * as Core from './components/core/index'
+import * as Buttons from './components/buttons/index'
+import * as Notifications from './components/notifications/index'
 // components/empties
 // import AnimatedBase from './components/empties/AnimatedBase'
 // import EmptyBase from './components/empties/EmptyBase'
@@ -13,12 +13,16 @@ import { useStoreNotifications } from '../src/stores/useStoreNotifications'
 // import { useMobile } from './hooks/useMobile'
 // services
 // stores
+import { useStoreNotifications } from './stores/useStoreNotifications'
 // import { useStoreNotifications } from './stores/useStoreNotifications'
 // import { useStoreModals } from './stores/useStoreModals'
 
 export {
   // components/core
-  ComponentBase,
+  Core,
+  // components/buttons
+  Buttons,
+  // components/notifications
   Notifications,
   // components/empties
   // AnimatedBase,
