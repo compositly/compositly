@@ -5,7 +5,7 @@ import {
   useStoreNotifications,
   NotificationState,
 } from '../../stores/useStoreNotifications'
-import { Notification } from '../../interfaces/Notification'
+import { INotification } from '../../interfaces/notifications'
 import NotificationItem from './NotificationItem'
 
 export default function Notifications() {
@@ -23,7 +23,7 @@ export default function Notifications() {
           className='c-fixed c-right-0 c-top-0 c-z-[150] c-m-4 c-flex c-max-w-[384px] 
           c-flex-col c-items-end c-gap-y-4 lg:c-m-8'
         >
-          {notifications.map((notification: Notification) => (
+          {notifications.map((notification: INotification) => (
             <NotificationItem
               key={`notification-item-${notification.id}`}
               notification={notification}

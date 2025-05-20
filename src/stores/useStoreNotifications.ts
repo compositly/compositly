@@ -1,12 +1,12 @@
 import { create } from 'zustand'
 import { v4 as uuidv4 } from 'uuid'
-import { NewNotification, Notification } from 'interfaces/Notification'
+import { NewNotification, INotification } from 'interfaces/notifications'
 
 /**
  * Zustand store for managing notifications.
  */
 export interface NotificationState {
-  notifications: Notification[]
+  notifications: INotification[]
   addNotification: (notification: NewNotification) => void
   removeNotification: (id: string) => void
 }

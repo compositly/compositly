@@ -36,7 +36,7 @@ export type NotificationType =
  *   type: 'success',
  * }
  */
-export interface Notification {
+export interface INotification {
   id: string
   title: string
   message: string
@@ -46,4 +46,4 @@ export interface Notification {
 /**
  * Props needed to create a new notification (without id).
  */
-export type NewNotification = Omit<Notification, 'id'>
+export type NewNotification = Omit<INotification, 'id'>

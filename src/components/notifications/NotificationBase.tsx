@@ -3,11 +3,11 @@ import React from 'react'
 import { MdDangerous, MdOutlineError } from 'react-icons/md'
 import { FaCircleCheck, FaCircleInfo } from 'react-icons/fa6'
 import { RiErrorWarningFill } from 'react-icons/ri'
-import { Notification, NotificationType } from 'interfaces/Notification'
+import { INotification, NotificationType } from 'interfaces/notifications'
 import ComponentBase from '../core/ComponentBase'
 
 export interface NotificationBaseProps {
-  notification: Notification
+  notification: INotification
 }
 
 export default function NotificationBase({

@@ -2,14 +2,14 @@
 import React, { useEffect } from 'react'
 import { motion, useIsPresent } from 'framer-motion'
 import { useTimeoutFn } from 'react-use'
-import { Notification } from '../../interfaces/Notification'
+import { INotification } from '../../interfaces/notifications'
 import { useStoreNotifications } from '../../stores/useStoreNotifications'
 import { notificationMotionVariants } from '../../helpers/helpersUI'
 import ButtonClose from '../buttons/ButtonClose'
 import NotificationBase from './NotificationBase'
 
 export interface NotificationsItemProps {
-  notification: Notification
+  notification: INotification
 }
 
 export default function NotificationItem({
