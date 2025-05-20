@@ -56,10 +56,12 @@ describe('components: [/notifications], component NotificationItem', () => {
       type: 'info',
       duration: 5000,
     }
-    render(<NotificationItem
-      key={`notification-item-${notification.id}`}
-      notification={notification}
-    />)
+    render(
+      <NotificationItem
+        key={`notification-item-${notification.id}`}
+        notification={notification}
+      />,
+    )
   })
 })
 
