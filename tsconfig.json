@@ -3,7 +3,7 @@
     "target": "ES2020",
     "module": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -16,5 +16,5 @@
     "baseUrl": "./src",
   },
   "include": ["src", "__tests__", ".storybook"],
-  "exclude": ["node_modules", "dist", "public"]
+  "exclude": ["node_modules", "dist", "public"],
 }
