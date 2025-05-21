@@ -6,7 +6,7 @@
 // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
 import React from 'react'
 import {
-  act,
+  // act,
   fireEvent,
   render,
   // fireEvent,
@@ -25,13 +25,13 @@ import * as framerMotion from 'framer-motion'
 import { INotification } from 'interfaces/notifications'
 
 // Mock useStoreNotifications
-const mockRemoveNotification = jest.fn();
+const mockRemoveNotification = jest.fn()
 
 jest.mock('../src/stores/useStoreNotifications', () => ({
   useStoreNotifications: jest.fn(() => ({
     removeNotification: mockRemoveNotification,
   })),
-}));
+}))
 
 // Mock useIsPresent to simulate presence or exit
 jest.mock('framer-motion', () => ({
@@ -83,7 +83,6 @@ describe('components: [/notifications], component NotificationItem', () => {
     duration: 4000,
   } as INotification
   jest.useFakeTimers()
-
 
   beforeEach(() => {
     jest.clearAllMocks()
